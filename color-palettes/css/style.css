@@ -22,15 +22,84 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#d3 {
+    background-color: #3E5C76;
+}
 #s4 {
     background-color: #748CAB;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#d4 {
+    background-color: #748CAB;
+}
 #s5 {
     background-color: #F0EBD8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#d5 {
+    background-color: #F0EBD8;
+}
+#s6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#d6 {
+    background-color: #74B3CE;
+}
+#s7 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#d7 {
+    background-color: #508991;
+}
+#s8 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#d8 {
+    background-color: #172A3A;
+}
+#s9 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#d9 {
+    background-color: #004346;
+}
+#s10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#d10 {
+    background-color: #09BC8A;
+}
+#s11 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#d11 {
+    background-color: #CFF27E;
+}
+#s12 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#d12 {
+    background-color: #F2DD6E;
+}
+#s13 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#d13 {
+    background-color: #E5B25D;
+}
+#s14 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#d14 {
+    background-color: #B87D4B;
+}
+#s15 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#d15 {
+    background-color: #523A34;
 }
 #body {
     background-color: #a7a7a7;
