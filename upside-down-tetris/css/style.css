@@ -6,3 +6,29 @@
 
     Good luck, and have fun!
 */
+.tetris-block {
+    padding: 20px;
+    border-width: 12px;
+    border-style: outset;
+    display: inline-block;
+}
+.blue {
+    border-color: blue;
+    background-color: blue;
+}
+.red {
+    border-color: red;
+    background-color: red;
+}
+.white {
+    border-color: white;
+    background-color: white;
+}
+.black {
+    border-color: black;
+    background-color: black;
+}
+.brown {
+    border-color: brown;
+    background-color: brown;
+}
