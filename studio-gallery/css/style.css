@@ -6,3 +6,26 @@
 
     Good luck, and have fun!
 */
+
+.display-space {
+    scale: .16;
+}
+#me {
+    margin: -100px -100px 100px;
+    border-style: solid;
+    border-width: 30px;
+    padding: -36px;
+}
+#car {
+    margin: -400px -100px 800px;
+    border: 30px solid rgb(0, 0, 0);
+    
+    
+}
+#text {
+    scale: 5;
+    margin: -1100px 675px 1px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 2px 50px;
+    background-color: aliceblue;
+}
