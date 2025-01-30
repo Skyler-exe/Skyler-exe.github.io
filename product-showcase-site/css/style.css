@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    height: 925px;
+    max-width: 1920px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#image1 {
+    width: 905px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
+    text-align: center;
+    color: #c0c0c0;
+}
+.preorder-button {
+    background-color: #007bff; 
+    color: white;
+    padding: 9px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    
+}
+
+
+.container2 {
+    width: 90%;
+    height: 670px;
+    max-width: 1920px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #290404;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.container3 {
+    width: 90%;
+    height: 670px;
+    max-width: 1920px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0548c4f1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
