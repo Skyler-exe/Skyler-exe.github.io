@@ -1,0 +1,81 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.card-style-1 {
+    background-color: #eeffe3;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-style-1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-style-1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card-style-1 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-style-1 p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.card-style-1 a {
+    display: block;
+    margin-top: 10px;
+    padding: 20px 20px;
+    background-color: #397c28;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.card-style-1 a:hover {
+    background-color: #003b0f;
+}

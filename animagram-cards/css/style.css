@@ -1,0 +1,144 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    padding: 20px;
+}
+
+#section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.card-style-2 {
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.card-style-2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.animagram-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.profile-pic-container img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+p {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: #000000;
+}
+
+.animagram-footer span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.animagram-footer i {
+    font-size: 18px;
+    color: #000000;
+}
+
+.animagram-footer i.fa-regular {
+    color: #888;
+}
+
+.animagram-footer span:hover {
+    cursor: pointer;
+    color: #008bb6;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #ff5a5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #51f5be;
+}
+
+.card-container > div {
+    padding: 20px;
+}
