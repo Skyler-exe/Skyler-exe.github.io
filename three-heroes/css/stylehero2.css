@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    height: 100vh;
+    background-image: url('https://frieddoughho.com/wp-content/uploads/Robert-Downey-Jr.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 60, 255);
+    position: relative;
+}
+
+.hero-right {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-text {
+    align-self: flex-end;
+    padding: 20px;
+    text-align: right;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+}
+
+.hero-text a {
+    margin-top: 20px;
+    color: rgb(0, 60, 255);
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 2px solid rgb(0, 60, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero-text a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
