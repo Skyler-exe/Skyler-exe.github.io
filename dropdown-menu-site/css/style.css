@@ -34,6 +34,7 @@ a {
 
 #nav-links li {
     margin-left: 20px;
+    position: relative;
 }
 
 #nav-links a {
@@ -47,10 +48,23 @@ a {
     background-color: #333;
     min-width: 160px;
     z-index: 1;
+    top: 100%;
+    left: 0;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.dropdown-content a {
+    padding: 10px;
+    display: block;
+    color: white;
+    font-size: 18px;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
 }
 
 #hero {
