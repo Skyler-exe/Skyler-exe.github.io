@@ -9,14 +9,28 @@ body {
     line-height: 1.6;
 }
 
-#brand {
-    font-family: 'Aristelle Script', cursive;
-    font-size: 36px;
-    color: #A2CD3A;
-    text-decoration: none;
-    padding: 10px 20px;
+#navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+#brand {
+    color: #A2CD3A;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Aristelle Script', cursive;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
 nav {
     background-color: #9D5C25;
     display: flex;
@@ -41,6 +55,7 @@ nav {
 }
 
 #hero {
+    background-image: url(https://images.pexels.com/photos/4215104/pexels-photo-4215104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-color: #9EDAE1;
     color: white;
     padding: 100px 20px;
@@ -70,6 +85,60 @@ nav {
 
 .cta-button:hover {
     background-color: #CCACAC;
+}
+
+#cards {
+    padding: 40px 10%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#cards h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.card a {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
 
 section {
@@ -104,4 +173,36 @@ footer {
         max-width: 100%;
         margin-bottom: 20px;
     }
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+.dish, .menu-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.dish img, .menu-item img {
+    max-width: 200px;
+    max-height: 150px;
+    margin-right: 20px;
+}
+
+.dish-info {
+    text-align: left;
+}
+
+.price {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+    color: #A2CD3A;
 }
