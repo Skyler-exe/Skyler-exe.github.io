@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    background: rgb(224, 206, 185);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.teams {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px 20px;
+}
+.team {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 60px 25px 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.team img {
+    width: 100px;
+    height: auto;
+}
+.vs {
+    font-size: 40px;
+    font-weight: 700;
+}
+#partyinfo {
+    padding-top: 30px;
+}
+
+.rsvp-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.yes {
+    background-color: rgb(1, 77, 1);
+    color: white;
+}
+.yes:hover {
+    background-color: rgb(0, 43, 0);
+}
+.no {
+    background-color: rgb(194, 2, 2);
+    color: white;
+}
+.no:hover {
+    background-color: rgb(71, 1, 1);
+}
+@media (max-width: 480px) {
+    .teams {
+        flex-direction: column;
+    }
+    .vs {
+        margin: 10px 0;
+    }
+}
